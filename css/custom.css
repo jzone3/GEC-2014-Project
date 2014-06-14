@@ -1,0 +1,73 @@
+@font-face {
+	font-family: "ProximaNova";
+	src: url('ProximaNova-Light.otf') format("opentype");
+}
+
+@font-face {
+	font-family: "ProximaNova";
+	src: url('ProximaNova-Bold.otf') format("opentype");
+	font-weight: bold;
+}
+
+body {
+	font-family: ProximaNova, Lato, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	/*background-color: #ecf0f1;*/
+}
+
+.info-pane {
+	/*padding-top: 70px;*/
+	padding-bottom: 10px;
+	width: 100%;
+	/*background-color: #2c3e50;*/
+	/*color: #ecf0f1;*/
+	/*text-transform: uppercase;*/
+	text-align: center;
+	font-size: 37px;
+}
+
+.navbar-trans {
+	background-color: rgba(255, 255, 255, 0.74);
+	font-weight: bold;
+	/*color: #bdc3c7;*/
+	color: white;
+	border-bottom: none;
+}
+
+.top-img {
+	height: 500px;
+	background: url('../img/tracks.jpg') no-repeat center center fixed;
+	background-size: cover;
+	/*-webkit-filter: blur(2px);*/
+}
+
+.center {
+	text-align: center;
+}
+
+.name {
+	padding-top: 190px;
+}
+.name h1, .name h2 {
+	color: #2ecc71;
+	-webkit-text-stroke: 1px #2c3e50;
+}
+
+.name h3, .name h4 {
+	color: #2ecc71;
+	-webkit-text-stroke: 1px #2c3e50;
+}
+.name h1 {
+	font-size: 100px;
+}
+
+.explanation {
+	padding-top: 40px;
+}
+
+.map {
+	/*width="640" height="480"*/
+	margin-top: 20px;
+	margin-bottom: 20px;
+	width: 100%;
+	height: 300px;
+}
