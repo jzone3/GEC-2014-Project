@@ -1,11 +1,11 @@
 @font-face {
 	font-family: "ProximaNova";
-	src: url('ProximaNova-Light.otf') format("opentype");
+	src: url('../ProximaNova-Light.otf') format("opentype");
 }
 
 @font-face {
 	font-family: "ProximaNova";
-	src: url('ProximaNova-Bold.otf') format("opentype");
+	src: url('../ProximaNova-Bold.otf') format("opentype");
 	font-weight: bold;
 }
 
@@ -119,4 +119,19 @@ ul.nav a:hover, div.navbar-header a:hover { background-color: rgba(255, 255, 255
 	height: 400px;
 	background: url('../img/window.jpg') no-repeat center center fixed;
 	background-size: cover;
+}
+
+.full-img-stores {
+	width: 100%;
+	height: 400px;
+	background: url('../img/table.jpg') no-repeat center center fixed;
+	background-size: cover;
+}
+
+.inventory-table {
+	width: 50%;
+	font-size: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 15px;
 }
